@@ -383,4 +383,80 @@ This demonstrates why modern low-bit AI models use advanced quantization techniq
 
 ---
 
-# Repository Structure
+
+---
+
+# Technologies Used
+
+- Python
+- PyTorch
+- Torchvision
+- NumPy
+- Google Colab
+- Jupyter Notebook
+
+
+---
+
+# Future Work
+
+This project serves as a foundation for exploring extremely low precision AI hardware acceleration.
+
+Future extensions:
+
+- FP2 quantization implementation
+- Comparison between FP4 and FP2 inference
+- Custom floating-point arithmetic hardware
+- FPGA accelerator design
+- Energy-efficient AI inference architectures
+
+
+---
+
+# Relation to FP2 Research
+
+This FP4 implementation acts as a foundation for future FP2-based AI acceleration.
+
+The workflow learned here:
+
+FP32 Model
+
+↓
+
+Low precision representation
+
+↓
+
+Quantization algorithm
+
+↓
+
+Accuracy evaluation
+
+↓
+
+Hardware optimization
+
+
+will be extended to FP2 formats for edge AI inference.
+
+
+---
+
+# References
+
+1. LLM-FP4: Low Precision Floating Point Quantization for Large Language Models
+
+2. FP2: A 2-bit Floating-Point Format for Edge-AI Inference and Fine-Tuning
+
+
+---
+
+# Author
+
+Gayathri Satheesh
+
+M.Tech Electronics
+
+AI Hardware Acceleration and Low Precision Computing
+
